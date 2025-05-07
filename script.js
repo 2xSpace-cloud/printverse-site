@@ -8,7 +8,8 @@ async function generateImage() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": API_KEY // Remplace par ta clé API OpenAI
+      "Authorization": "Bearer" + API_KEY,
+      "OpenAI-Organization": "org-8v0r7q1x2g3z4h5j6k7l8m9n",// Remplace par ta clé API OpenAI
     },
     body: JSON.stringify({
       model: "dall-e-3",
