@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#configurator input {
+    padding: 10px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+#configurator button {
+    padding: 10px;
+}
+
+#design-result img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 5px;
+}
