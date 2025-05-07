@@ -1,66 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PrintVerse - Boutique de produits personnalisés</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PrintVerse - Boutique IA</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>PrintVerse</h1>
-        <nav>
-            <ul>
-                <li><a><a href="#testimonials">Témoignages</a></li>
-                <li><a href="#footer">Liens utiles</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>PrintVerse</h1>
+    <nav>
+      <ul>
+        <li><a href="#concept">Concept</a></li>
+        <li><a href="#gallery">Galerie</a></li>
+        <li><a href="#configurator">Configurateur IA</a></li>
+        <li><a href="#testimonials">Témoignages</a></li>
+        <li><a href="#footer">Liens utiles</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="concept">
-        <h2>Concept</h2>
-        <p>Bienvenue chez PrintVerse, votre boutique en ligne de produits personnalisés. Utilisez notre IA pour créer des designs uniques et commandez des produits imprimés à la demande.</p>
-    </section>
+  <section id="concept">
+    <h2>Concept</h2>
+    <p>Bienvenue chez PrintVerse, votre boutique de produits personnalisés générés par intelligence artificielle. Créez des designs uniques et imprimez-les sur vos objets préférés.</p>
+  </section>
 
-    <section id="gallery">
-        <h2>Galerie de produits</h2>
-        <div class="gallery-item">
-            <img src="product1.jpg" alt="Produit 1">
-            <p>Produit 1</p>
-        </div>
-        <div class="gallery-item">
-            <img src="product2.jpg" alt="Produit 2">
-            <p>Produit 2</p>
-        </div>
-        <div class="gallery-item">
-            <img src="product3.jpg" alt="Produit 3">
-            <p>Produit 3</p>
-        </div>
-    </section>
+  <section id="gallery">
+    <h2>Galerie de produits</h2>
+    <div class="gallery-item"><img src="product1.jpg" alt="Produit 1"/><p>Produit 1</p></div>
+    <div class="gallery-item"><img src="product2.jpg" alt="Produit 2"/><p>Produit 2</p></div>
+    <div class="gallery-item"><img src="product3.jpg" alt="Produit 3"/><p>Produit 3</p></div>
+  </section>
 
-    <section id="configurator">
-        <h2>Configurateur de design IA</h2>
-        <input type="text" id="prompt" placeholder="Entrez votre idée ou prompt">
-        <button onclick="generateImage()">Générer le design</button>
-        <div id="design-result"></div>
-    </section>
+  <section id="configurator">
+    <h2>Configurateur de design IA</h2>
+    <input type="text" id="prompt" placeholder="Décrivez votre idée (ex : chat cosmique dans l’espace)"/>
+    <button onclick="generateImage()">Générer le design</button>
+    <div id="design-result"></div>
+  </section>
 
-    <section id="testimonials">
-        <h2>Témoignages clients</h2>
-        <p>"PrintVerse m'a permis de créer des produits uniques pour mon entreprise. Je recommande vivement !" - Client A</p>
-        <p>"Les designs générés par l'IA sont incroyables. J'adore mon nouveau t-shirt !" - Client B</p>
-    </section>
+  <section id="testimonials">
+    <h2>Témoignages</h2>
+    <p>“PrintVerse m’a permis de créer un mug unique pour mon équipe !” – Clara</p>
+    <p>“Les designs IA sont bluffants. Je recommande à 100 %.” – Julien</p>
+  </section>
 
-    <footer id="footer">
-        <h2>Liens utiles</h2>
-        <ul>
-            <li><a href="#concept">Concept</a></li>
-            <li><a href="#gallery">Galerie</a></li>
-            <li><a href="#configurator">Configurateur IA</a></li>
-            <li><a href="#testimonials">Témoignages</a></li>
-        </ul>
-    </footer>
+  <footer id="footer">
+    <h2>Liens utiles</h2>
+    <ul>
+      <li><a href="#concept">Concept</a></li>
+      <li><a href="#gallery">Galerie</a></li>
+      <li><a href="#configurator">Configurateur</a></li>
+    </ul>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
